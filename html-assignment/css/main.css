@@ -10,3 +10,11 @@ header, footer {
 .site-title {
     color: #545E31;
 }
+
+#my-image {
+    box-shadow: 0 0 2px 1px black; 
+}
+
+.hobbies li {
+    list-style-type: square;
+}
