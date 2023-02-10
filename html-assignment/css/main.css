@@ -19,7 +19,36 @@ header, footer {
     list-style-type: square;
 }
 
-nav ul li {
-    list-style-type: none;
+nav ul {
+    list-style: none;
+    display: inline-block;
+    background-color: #fefae0;
+    color: #d4a373;
+    padding: 20px 25px;
+    text-align: center;
+    border-style: solid;
+}
+
+a:link {
     text-decoration: none;
+}
+
+.aboutme {
+    padding-top: 20;
+    padding-bottom: 20;
+    background-color: #ccd5ae;
+}
+
+.notes {
+    padding-top: 20;
+    padding-bottom: 20;
+    background-color: #ccd5ae;
+}
+
+.aboutme:hover {
+    color: #fefae0;
+}
+
+a:hover {
+    color:#fefae0
 }
