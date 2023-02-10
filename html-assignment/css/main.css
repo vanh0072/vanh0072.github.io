@@ -18,3 +18,8 @@ header, footer {
 .hobbies li {
     list-style-type: square;
 }
+
+nav ul li {
+    list-style-type: none;
+    text-decoration: none;
+}
