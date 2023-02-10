@@ -2,3 +2,11 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
 }
+
+header, footer {
+    background-color: #ccd5ae;
+}
+
+.site-title {
+    color: #545E31;
+}
