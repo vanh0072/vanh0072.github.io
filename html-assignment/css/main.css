@@ -11,6 +11,12 @@ header, footer {
     color: #52796f;
 }
 
+/* dog lover. adventure seeker. coffee enthusiast. */
+.intro {
+    color: #52796f
+}
+
+/* image id */
 #my-image {
     box-shadow: 0 0 2px 1px black; 
 }
@@ -27,6 +33,7 @@ header, footer {
     list-style-type: square;
 }
 
+/* navigation bar */
 nav ul {
     list-style: none;
     display: inline-flex;
@@ -38,7 +45,7 @@ nav ul {
     border-width: 2px;
 }
 
-/* Navigation links */
+/* navigation links */
 .navbar a {
     float: center;
     padding: 5px;
