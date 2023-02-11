@@ -1,18 +1,26 @@
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
 }
 
 header, footer {
-    background-color: #ccd5ae;
+    background-color: #cad2c5;
 }
 
 .site-title {
-    color: #545E31;
+    color: #52796f;
 }
 
 #my-image {
     box-shadow: 0 0 2px 1px black; 
+}
+
+.pepper-image {
+    box-shadow: 0 0 2px 1px #52796f;
+}
+
+.olive-image {
+    box-shadow: 0 0 2px 1px #52796f;
 }
 
 .hobbies li {
@@ -22,9 +30,9 @@ header, footer {
 nav ul {
     list-style: none;
     display: inline-flex;
-    background-color: #fefae0;
-    color: #545E31;
-    padding: 10px 110px;
+    background-color: #84a98c71;
+    color: #52796f;
+    padding: 10px 120px;
     text-align: center;
     border-style: solid;
     border-width: 2px;
@@ -34,7 +42,7 @@ nav ul {
 .navbar a {
     float: center;
     padding: 5px;
-    color: #545E31;
+    color: #52796f;
     text-decoration: none;
     font-size: 18px;
     width: 50%;
@@ -57,10 +65,6 @@ a:link {
     
 }
 
-.aboutme:hover {
-    color: #fefae0;
-}
-
 a:hover {
-    color:#fefae0
+    color:white
 }
