@@ -33,6 +33,10 @@ header, footer {
     list-style-type: square;
 }
 
+.hobbies li:nth-child(odd) {
+    background: #cad2c5;
+}
+
 /* navigation bar */
 nav ul {
     list-style: none;
