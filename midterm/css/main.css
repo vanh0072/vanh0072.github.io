@@ -15,8 +15,8 @@ body {
 
 header {
     height: 100%;
-    background: #aad4cf url("../images/lone-starfish-wide.jpg") no-repeat;
-    background-size: cover;
+    background: #d1ebe8 url("../images/lone-starfish-wide.jpg") no-repeat;
+    background-size: contain;
     background-position: 100%;
     height: 100%;
     width: 100%;
@@ -26,8 +26,29 @@ header {
     text-align: center;
 }
 
-.nav {
+.nav li {
+    background-color: #d1ebe8;
+    display: inline-block;
+    padding: 10px;
+    height: 40px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 150px;
+}
 
+img {
+    float: left;
+    margin: 5px;
+    max-width: 210px;
+    max-height: 210px;
+}
+
+.contact {
+    border-style: solid;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 /* body header {
