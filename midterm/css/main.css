@@ -45,10 +45,47 @@ img {
 
 .contact {
     border-style: solid;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    margin: 1rem;
+}
+
+.name {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+#fullname {
+    object-position: 1vh;
+    width: 46rem;
+    height: auto;
+    display: block;
+}
+
+.email {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+#youremail {
+    object-position: 1vh;
+    width: 46rem;
+    height: auto;
+    display: block;
+}
+
+.message {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+#yourmessage {
+    object-position: 1vh;
+    width: 46rem;
+    height: auto;
+    display: block;
 }
 
 /* body header {
