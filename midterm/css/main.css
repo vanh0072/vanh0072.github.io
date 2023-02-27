@@ -5,6 +5,7 @@
 body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #aad4cf;
+    font-size: 10pt;
 }
 
 .wrapper {
@@ -24,6 +25,7 @@ header {
 h1 {
     padding-top: 150px;
     font-size: 30pt;
+    position: relative;
 }
 
 .nav {
@@ -32,6 +34,8 @@ h1 {
     text-align: center;
     padding: 0;
     margin: 0;
+    text-decoration: none;
+    position: relative;
 }
 
 /* navigation links */
@@ -43,6 +47,11 @@ h1 {
     margin-top: 10px;
     font-size: 16px;
     text-decoration: none;
+    position: relative;
+}
+
+.nav ul li {
+    text-decoration: none;
 }
 
 /* home nav link */
@@ -51,13 +60,17 @@ h1 {
     border-left: none;
     border-top: none;
     border-bottom: none;
+    text-decoration: none;
+    text-align: center;
 }
 
-.story {
+.li-story {
     border-style: solid;
     border-left: none;
     border-top: none;
     border-bottom: none;
+    text-decoration: none;
+    text-align: center;
 }
 
 .contact {
@@ -66,6 +79,7 @@ h1 {
     border-top: none;
     border-bottom: none;
     border-right: none;
+    text-decoration: none;
 }
 
 /* starfish image */
@@ -81,11 +95,13 @@ h2 {
     padding-left: 2vh;
 }
 
+/* life of a starfish paragraph */
 .story-demo {
     padding-left: 20px;
     padding-right: 20px;
 }
 
+/* contact to learn more form */
 .contact-form {
     border-style: solid;
     padding-top: 1vh;
@@ -93,6 +109,12 @@ h2 {
     padding-left: 1vh;
     padding-right: 1vh;
     margin: 1rem;
+    font-size: 10pt;
+}
+
+.contact-form h3 {
+    font-size: 10pt;
+    font-weight: 100;
 }
 
 .name {
@@ -130,6 +152,25 @@ h2 {
     height: auto;
     display: block;
 }
+
+.visit {
+    display: inline-block;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.visit legend {
+    padding-left: 0;
+    padding-bottom: 1vh;
+}
+
+.button {
+    padding-top: 1vh;
+    font-size: 10pt;
+    text-transform: uppercase;
+    display: block;
+}
+
 
 footer {
     text-align: right;
