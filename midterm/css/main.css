@@ -40,14 +40,25 @@ h1 {
 
 /* navigation links */
 .nav li {
-    display: inline-block;
+    display: inline-table;
     padding: 14px 80px 14px 100px;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 50%);
-    margin-top: 10px;
-    font-size: 16px;
-    text-decoration: none;
+    margin: auto;
+    font-size: 18px;
     position: relative;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    list-style-type: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #aad4cf;
 }
 
 .nav ul li {
@@ -62,6 +73,7 @@ h1 {
     border-bottom: none;
     text-decoration: none;
     text-align: center;
+    margin: auto;
 }
 
 .li-story {
@@ -71,6 +83,7 @@ h1 {
     border-bottom: none;
     text-decoration: none;
     text-align: center;
+    margin: auto;
 }
 
 .contact {
@@ -80,6 +93,7 @@ h1 {
     border-bottom: none;
     border-right: none;
     text-decoration: none;
+    margin: auto;
 }
 
 /* starfish image */
