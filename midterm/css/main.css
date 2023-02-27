@@ -157,7 +157,7 @@ h2 {
 
 .message {
     padding-top: 1vh;
-    padding-bottom: 1vh;
+    padding-bottom: 0;
 }
 
 #yourmessage {
@@ -173,9 +173,9 @@ h2 {
     padding-bottom: 1vh;
 }
 
-.visit legend {
+.visit p {
     padding-left: 0;
-    padding-bottom: 1vh;
+    padding-bottom: 0;
 }
 
 .button {
