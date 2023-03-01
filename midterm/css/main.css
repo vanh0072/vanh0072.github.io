@@ -141,11 +141,13 @@ h2 {
     width: 46rem;
     height: auto;
     display: block;
+    margin-top: 1vh;
 }
 
 .email {
     padding-top: 1vh;
     padding-bottom: 1vh;
+    margin-top: 1vh;
 }
 
 #youremail {
@@ -153,6 +155,7 @@ h2 {
     width: 46rem;
     height: auto;
     display: block;
+    margin-top: 1vh;
 }
 
 .message {
@@ -165,6 +168,7 @@ h2 {
     width: 46rem;
     height: auto;
     display: block;
+    margin-top: 1vh;
 }
 
 .visit {
