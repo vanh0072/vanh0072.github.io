@@ -10,7 +10,7 @@ body {
 
 .wrapper {
     background-color: #d1ebe8;
-    width: 800px;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -28,27 +28,14 @@ h1 {
     position: relative;
 }
 
-.nav {
+nav {
     background-color: #d1ebe8;
-    list-style-type: none;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    position: relative;
+    /* list-style-type: none; */
+    /* text-align: center; */
+    /* text-decoration: none; */
 }
 
 /* navigation links */
-.nav li {
-    display: inline-table;
-    padding: 14px 80px 14px 100px;
-    text-transform: uppercase;
-    color: rgba(0, 0, 0, 50%);
-    margin: auto;
-    font-size: 18px;
-    position: relative;
-}
-
 a {
     text-decoration: none;
     text-align: center;
@@ -61,39 +48,34 @@ a:hover {
     color: #aad4cf;
 }
 
-.nav ul li {
-    text-decoration: none;
+nav ul {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    padding: 0;
 }
 
-/* home nav link */
-.home {
-    border-style: solid;
-    border-left: none;
-    border-top: none;
-    border-bottom: none;
+nav li {
+    width: inherit;
+    text-align: center;
+}
+
+nav ul li {
     text-decoration: none;
     text-align: center;
-    margin: auto;
+    display: inline;
+    padding-top: 10px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 50%);
+    font-size: 18px;
+    width: inherit;
 }
 
-.li-story {
+nav ul li:nth-child(2) {
     border-style: solid;
-    border-left: none;
     border-top: none;
     border-bottom: none;
-    text-decoration: none;
-    text-align: center;
-    margin: auto;
-}
 
-.contact {
-    border-style: solid;
-    border-left: none;
-    border-top: none;
-    border-bottom: none;
-    border-right: none;
-    text-decoration: none;
-    margin: auto;
 }
 
 /* starfish image */
@@ -113,6 +95,10 @@ h2 {
 .story-demo {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.facts ul {
+    padding-left: 30px;
 }
 
 /* contact to learn more form */
@@ -138,7 +124,7 @@ h2 {
 
 #fullname {
     object-position: 1vh;
-    width: 46.5rem;
+    width: 100%;
     height: auto;
     display: block;
     margin-top: 1vh;
@@ -152,7 +138,7 @@ h2 {
 
 #youremail {
     object-position: 1vh;
-    width: 46.5rem;
+    width: 100%;
     height: auto;
     display: block;
     margin-top: 1vh;
@@ -165,7 +151,7 @@ h2 {
 
 #yourmessage {
     object-position: 1vh;
-    width: 46.5rem;
+    width: 100%;
     height: auto;
     display: block;
     margin-top: 1vh;
@@ -182,13 +168,20 @@ h2 {
     padding-bottom: 0;
 }
 
-.button {
-    padding-top: 1vh;
+button {
+    padding: 1vh;
     font-size: 10pt;
     text-transform: uppercase;
     display: block;
+    border-style: solid;
+    color: black;
+    background-color: #d1ebe8;
 }
 
+button:hover {
+    color: #d1ebe8;
+    background-color: black;
+}
 
 footer {
     text-align: right;
