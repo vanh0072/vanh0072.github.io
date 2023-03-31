@@ -12,6 +12,10 @@
     color: white;
 }
 
+.mainbanner {
+    float: center;
+}
+
 .wrapper-2 {
     background-color: blanchedalmond;
 }
