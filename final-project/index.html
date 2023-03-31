@@ -14,61 +14,114 @@
         </h1>
         <nav>
             <ul>
-                <li href="#">Home</li>
-                <li href="#">About Us</li>
-                <li href="#">Services</li>
-                <li href="#">Team</li>
-                <li href="#">Contact</li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aboutus">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><input id="search" type="text" placeholder="Search"></li>
             </ul>
         </nav>
-        <h2>Welcome to Three Star Media</h2>
+        <h2 id="home">Welcome to Three Star Media</h2>
+        <img src="images/main-banner.jpg" alt="mainbanner">
         <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi labore natus delectus dolores eum fugit nemo officiis est, sunt, doloribus voluptas nobis ipsum id, aliquam magnam sequi. Tenetur, magnam expedita.
         </p>
         <button type="submit">Connect with us</button>
     </header>
     <section>
-        <h2>About Us</h2>
+        <img src="images/about-us.jpg" alt="aboutus">
+        <h2 id="aboutus">About Us</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ad quia aperiam est ullam molestiae recusandae vel vitae! Deserunt cupiditate ex reiciendis error ducimus libero mollitia commodi quas deleniti praesentium.</p>
         <p>Minima ipsam veritatis debitis veniam eum minus maiores perspiciatis labore exercitationem odio? Nam, id, perferendis nesciunt quia vero repellendus accusantium nulla voluptates nostrum voluptatibus nihil explicabo. Laboriosam a sed esse!</p>
     </section>
     <section>
-        <h2>Our Services</h2>
+        <h2 id="services">Our Services</h2>
         
+        <img src="images/digital.jpg" alt="digital">
         <h3>Digital Transformation</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo facilis hic, fugiat nulla nostrum asperiores doloribus amet eum, officiis reiciendis perferendis. Officiis deserunt eius harum nemo ipsa reiciendis similique nesciunt!</p>
         <button type="submit">Digital Plans</button>
 
+        <img src="images/marketing.jpg" alt="marketing">
         <h3>Marketing</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum soluta excepturi perspiciatis corporis nulla, ducimus aliquid, culpa ratione distinctio quam delectus non cumque? Quod veniam laboriosam soluta facilis dignissimos aperiam.</p>
         <button type="submit">Marketing Plans</button>
 
+        <img src="images/video.jpg" alt="video">
         <h3>Video Production</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum soluta excepturi perspiciatis corporis nulla, ducimus aliquid, culpa ratione distinctio quam delectus non cumque? Quod veniam laboriosam soluta facilis dignissimos aperiam.</p>
         <button type="submit">Video Plans</button>
         
+        <img src="images/web.jpg" alt="web">
         <h3>Web Development</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum soluta excepturi perspiciatis corporis nulla, ducimus aliquid, culpa ratione distinctio quam delectus non cumque? Quod veniam laboriosam soluta facilis dignissimos aperiam.</p>
         <button type="submit">Web Plans</button>
 
+        <img src="images/print.jpg" alt="print">
         <h3>Print</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum soluta excepturi perspiciatis corporis nulla, ducimus aliquid, culpa ratione distinctio quam delectus non cumque? Quod veniam laboriosam soluta facilis dignissimos aperiam.</p>
         <button type="submit">Print Plans</button>
     </section>
     <section>
+        <img src="images/vision.jpg" alt="vision">
         <h3>Our Vision</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa itaque hic tempora adipisci fugit ex est repellendus voluptates. Harum voluptas similique, et nostrum quia perferendis tempore praesentium unde quod quaerat?</p>
         <button type="submit">Learn More</button>
     </section>
     <section>
-        <h2>Our Team</h2>
+        <h2 id="team">Our Team</h2>
+        <img src="images/john.jpg" alt="john">
         <h3>John Doe</h3>
         <h4>CEO and Co-owner</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quia debitis! Nam architecto hic est, magnam ut veritatis ipsam itaque voluptatum obcaecati exercitationem earum sint quibusdam eaque sequi expedita aspernatur.</p>
 
+        <img src="images/bob.jpg" alt="bob">
         <h3>Bob Rite</h3>
         <h4>CFO and Co-owner</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quia debitis! Nam architecto hic est, magnam ut veritatis ipsam itaque voluptatum obcaecati exercitationem earum sint quibusdam eaque sequi expedita aspernatur.</p>
     </section>
+    <section>
+        <h2 id="contact">Contact Us</h2>
+        <h3>Send us a message</h3>
+        <form action="contact.html" method="post">
+            <label for="fullname">Full Name</label>
+            <input id="fullname">
+            <label for="email">Email</label>
+            <input id="email">
+            <label for="message">Message</label>
+            <textarea id="message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <section>
+        <h2>Hours of operation</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Days</th>
+                    <th>Hours</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                    <td>Monday - Friday</td>
+                    <td>9AM - 6PM</td>
+                </tr>
+                <tr>
+                    <td>Saturday - Sunday</td>
+                    <td>Closed</td>
+                  </tr>
+              </tbody>
+        </table>
+    </section>
+    <section>
+        <h2>Location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22431.557606359238!2d-75.77244758605956!3d45.34992854157597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1680276119216!5m2!1sen!2sca" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <footer>
+        &copy; Copyright Three Star Media, 2020
+        <br>All images are taken from Unsplash
+    </footer>
 </body>
 </html>
