@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: auto;
+    width: 100%;
+}
+
+.wrapper-1 {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-2 {
+    background-color: blanchedalmond;
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+nav ul li {
+    list-style-type: none;
+    text-align: center;
+}
+
+h1 {
+    background-color: #C68D00;
+}
