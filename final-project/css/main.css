@@ -50,30 +50,44 @@ nav ul li:nth-child(6) {
 
 .wrapper-2 {
     position: relative;
+    width: 100%;
     text-align: left;
     color: white;
 }
 
 .mainbanner {
+    display: block;
     width: 100%;
     height: auto;
 }
 
 .welcome {
     position: absolute;
-    top: 25%;
+    top: auto;
     color: white;
+    bottom: 50%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    width: 100%;
+    font-size: 50px;
 }
 
 .paragraph-1 {
     position: absolute;
-    top: 30%;
+    top: auto;
     color: white;
+    bottom: 25%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    width: 100%;
 }
 
 .button-1 {
     position: absolute;
-    bottom: 50%;
+    bottom: 10%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    width: 100%;
 }
 
 .wrapper-3 {
@@ -93,6 +107,7 @@ nav ul {
 nav ul li {
     list-style-type: none;
     text-align: center;
+    color: white;
 }
 
 h1 {
