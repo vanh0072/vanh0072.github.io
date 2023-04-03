@@ -7,21 +7,87 @@
     width: 100%;
 }
 
+/* header and navigation links - using nth child to target specific nav links */
 .wrapper-1 {
+    background-color: #C68D00;
+    color: white;
+}
+
+nav ul li:nth-child(1) {
+    padding-top: 50px;
+    margin: 0;
+}
+
+nav ul li:nth-child(2) {
     background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li:nth-child(3) {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li:nth-child(4) {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li:nth-child(5) {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li:nth-child(6) {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper-2 {
+    position: relative;
+    text-align: left;
     color: white;
 }
 
 .mainbanner {
-    float: center;
+    width: 100%;
+    height: auto;
 }
 
-.wrapper-2 {
-    background-color: blanchedalmond;
+.welcome {
+    position: absolute;
+    top: 25%;
+    color: white;
 }
 
-body {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+.paragraph-1 {
+    position: absolute;
+    top: 30%;
+    color: white;
+}
+
+.button-1 {
+    position: absolute;
+    bottom: 50%;
+}
+
+.wrapper-3 {
+    background-color: rgb(238, 212, 173);
+    display: flex;
+}
+
+.aboutusimage {
+    width: 100%;
+    height: auto;
+}
+
+nav ul {
+    padding: 0;
 }
 
 nav ul li {
@@ -31,4 +97,5 @@ nav ul li {
 
 h1 {
     background-color: #C68D00;
+    margin: 0;
 }
