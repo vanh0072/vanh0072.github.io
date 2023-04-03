@@ -174,10 +174,71 @@ nav ul li:nth-child(6) {
 
 .services {
     font-size: 30px;
+    padding: 10px;
 }
 
 .wrapper-4 h3 {
     font-size: 20px;
+}
+
+.digital {
+    background-color: rgb(238, 212, 173);
+}
+
+.digital img {
+    width: 100%;
+    height: auto;
+}
+
+.digital button {
+    background-color: black; /* brand colour */
+    border: none;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 14px 40px;
+}
+
+.marketing {
+    background-color: rgb(238, 212, 173);
+}
+
+.marketing img {
+    width: 100%;
+    height: auto;
+}
+
+.marketing button {
+    background-color: black; /* brand colour */
+    border: none;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 14px 40px;
+}
+
+.videoproduction {
+    background-color: rgb(238, 212, 173);
+}
+
+.videoproduction img {
+    width: 100%;
+    height: auto;
+}
+
+.videoproduction button {
+    background-color: black; /* brand colour */
+    border: none;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 14px 40px;
 }
 
 nav ul {
