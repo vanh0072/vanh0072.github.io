@@ -287,6 +287,10 @@ nav ul li:nth-child(6) {
     height: auto;
 }
 
+.wrapper-6 {
+    padding: 10px;
+}
+
 .wrapper-6 img {
     width: 100%;
     height: auto;
@@ -310,6 +314,69 @@ nav ul li:nth-child(6) {
 
 .bob h3 {
     font-size: 20px;
+}
+
+.wrapper-7 {
+    padding: 10px;
+}
+
+.wrapper-7 h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.wrapper-7 button {
+    background-color: black;
+    color:#C68D00;
+}
+
+.wrapper-7 #fullname {
+    width: 100%;
+}
+
+.wrapper-7 #email {
+    width: 100%;
+}
+
+.wrapper-7 #message {
+    width: 100%;
+    padding: 50px;
+}
+
+.wrapper-8 {
+    padding: 10px;
+}
+
+.wrapper-8 h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.wrapper-8 table {
+    border: 1px solid;
+    width: 100%;
+}
+
+.wrapper-8 th, td {
+    border: 1px solid;
+    padding: 10px;
+}
+
+.wrapper-8 th {
+    background-color: rgb(238, 212, 173);
+}
+
+.wrapper-9 {
+    padding: 10px;
+}
+
+.wrapper-9 h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.wrapper-9 iframe {
+    width: 100%;
 }
 
 .arrow {
