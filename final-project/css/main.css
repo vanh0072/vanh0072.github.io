@@ -57,48 +57,100 @@ table {
     width: 100%;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* header and navigation links - using nth child to target specific nav links */
-.wrapper-1 {
-    background-color: #C68D00;
+.header {
+    padding: 10px;
+    background-color: black;
+}
+
+.headercontainer {
+    background-color: #c78c06;
+}
+
+.headercontainer a {
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    color: #c78c06;
+    text-decoration: none;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    text-align: center;
     color: white;
+    padding: 20px;
 }
 
-nav ul li:nth-child(1) {
-    padding-top: 50px;
+h1 {
+    background-color: #c78c06;
     margin: 0;
+    padding-bottom: 60px;
 }
 
-nav ul li:nth-child(2) {
+li:nth-child(2) {
+    padding: 20px;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+li:nth-child(3) {
+    padding: 20px;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+li:nth-child(4) {
+    padding: 20px;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+li:nth-child(5) {
+    padding: 20px;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+li:nth-child(6) {
+    padding: 20px;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#search {
+    width: 90%;
+    padding: 10px;
+}
+
+.searchbutton {
     background-color: black;
-    padding: 0;
-    margin: 0;
+    border: solid #c78c06;
+    border-left: none;
+    padding: 10px;
 }
 
-nav ul li:nth-child(3) {
-    background-color: black;
-    padding: 0;
-    margin: 0;
+.fa-solid {
+    color: #c78c06;
 }
 
-nav ul li:nth-child(4) {
-    background-color: black;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li:nth-child(5) {
-    background-color: black;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li:nth-child(6) {
-    background-color: black;
-    padding: 0;
-    margin: 0;
-}
-
-.wrapper-2 {
+/* Welcome container */
+.welcomepage {
     position: relative;
     width: 100%;
     text-align: left;
@@ -134,7 +186,7 @@ nav ul li:nth-child(6) {
 
 .button1 {
     position: absolute;
-    background-color: #C68D00; /* brand colour */
+    background-color: #c78c06; /* brand colour */
     border: none;
     color: white;
     text-align: left;
@@ -149,8 +201,15 @@ nav ul li:nth-child(6) {
     background-color: black;
 }
 
-.wrapper-3 {
-    background-color: rgb(238, 212, 173);
+/* About Us container */
+.aboutus {
+    background-color: #ffe6ac;
+    padding: 10px;
+}
+
+.aboutus h2 {
+    font-size: 30px;
+    padding: 10px;
 }
 
 .aboutusimage {
@@ -159,17 +218,12 @@ nav ul li:nth-child(6) {
     padding: 10px;
 }
 
-.aboutus {
-    font-size: 30px;
-    padding: 10px;
-    font-weight: 300;
-}
-
 .paragraph3 {
     padding: 10px;
 }
 
-.wrapper-4 {
+/* Services container */
+.ourservices {
     padding: 10px;
 }
 
@@ -178,12 +232,12 @@ nav ul li:nth-child(6) {
     padding: 10px;
 }
 
-.wrapper-4 h3 {
+.ourservices h3 {
     font-size: 30px;
 }
 
 .digital {
-    background-color: rgb(238, 212, 173);
+    background-color: #ffe6ac;
 }
 
 .digital img {
@@ -203,7 +257,7 @@ nav ul li:nth-child(6) {
 }
 
 .marketing {
-    background-color: rgb(238, 212, 173);
+    background-color: #ffe6ac;
 }
 
 .marketing img {
@@ -223,7 +277,7 @@ nav ul li:nth-child(6) {
 }
 
 .videoproduction {
-    background-color: rgb(238, 212, 173);
+    background-color: #ffe6ac;
 }
 
 .videoproduction img {
@@ -243,7 +297,7 @@ nav ul li:nth-child(6) {
 }
 
 .webdev {
-    background-color: rgb(238, 212, 173);
+    background-color: #ffe6ac;
 }
 
 .webdev img {
@@ -263,7 +317,7 @@ nav ul li:nth-child(6) {
 }
 
 .print {
-    background-color: rgb(238, 212, 173);
+    background-color: #ffe6ac;
 }
 
 .print img {
@@ -282,101 +336,157 @@ nav ul li:nth-child(6) {
     padding: 14px 40px;
 }
 
-.wrapper-5 img {
+/* Vision container */
+.imagevision img {
     width: 100%;
-    height: auto;
+    object-fit: fill;
+    height: 50%;
 }
 
-.wrapper-6 {
+.visioninfo {
+    position: relative;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.visioninfo h3 {
+    position: absolute;
+    bottom: 20rem;
     padding: 10px;
 }
 
-.wrapper-6 img {
+.visioninfo p {
+    position: absolute;
+    bottom: 16rem;
+    padding: 10px;
+}
+
+.visioninfo button {
+    position: absolute;
+    bottom: 10rem;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    padding: 20px;
+    color: white;
+    border: solid #c78c06;
+    margin: 10px;
+}
+
+/* Our Team container */
+.team {
+    padding: 10px;
+}
+
+.team img {
     width: 100%;
     height: auto;
 }
 
-.wrapper-6 h2 {
+.team h2 {
     font-size: 30px;
+    padding-bottom: 10px;
 }
 
-.wrapper-6 .john {
-    background-color: rgb(238, 212, 173);
+.team .john {
+    background-color: #ffe6ac;
+    padding-bottom: 10px;
 }
 
-.wrapper-6 .bob {
-    background-color: rgb(238, 212, 173);
+.team .bob {
+    background-color: #ffe6ac;
+    padding-bottom: 10px;
 }
 
 .john h3 {
     font-size: 20px;
+    padding-bottom: 10px;
 }
 
 .bob h3 {
     font-size: 20px;
+    padding-bottom: 10px;
 }
 
-.wrapper-7 {
+.john h4 {
+    padding-bottom: 10px;
+}
+
+.bob h4 {
+    padding-bottom: 10px;
+}
+
+/* Contact Us container */
+.contact {
     padding: 10px;
 }
 
-.wrapper-7 h2 {
+.contact h2 {
     font-size: 20px;
     font-weight: 700;
+    padding-bottom: 20px;
 }
 
-.wrapper-7 button {
+.contact h3 {
+    padding-bottom: 10px;
+}
+
+.contact button {
     background-color: black;
-    color:#C68D00;
+    color:#c78c06;
 }
 
-.wrapper-7 #fullname {
+.contact #fullname {
     width: 100%;
 }
 
-.wrapper-7 #email {
+.contact #email {
     width: 100%;
 }
 
-.wrapper-7 #message {
+.contact #message {
     width: 100%;
     padding: 50px;
 }
 
-.wrapper-8 {
+/* Hours container */
+.hours {
     padding: 10px;
 }
 
-.wrapper-8 h2 {
+.hours h2 {
     font-size: 20px;
     font-weight: 700;
 }
 
-.wrapper-8 table {
+.hours table {
     border: 1px solid;
     width: 100%;
 }
 
-.wrapper-8 th, td {
+.hours th, td {
     border: 1px solid;
     padding: 10px;
 }
 
-.wrapper-8 th {
-    background-color: rgb(238, 212, 173);
+.hours th {
+    background-color: #ffe6ac;
 }
 
-.wrapper-9 {
+/* Location container */
+.location {
     padding: 10px;
 }
 
-.wrapper-9 h2 {
+.location h2 {
     font-size: 20px;
     font-weight: 700;
 }
 
-.wrapper-9 iframe {
+.map {
+    border: 0;
     width: 100%;
+    height: 500px;
 }
 
 .arrow {
@@ -386,26 +496,8 @@ nav ul li:nth-child(6) {
     padding: 3px;
   }
 
-  .right {
+.right {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
   }
 
-nav ul {
-    padding: 0;
-}
-
-nav ul li {
-    list-style-type: none;
-    text-align: center;
-    color: white;
-}
-
-nav:hover {
-    background-color: white;
-}
-
-h1 {
-    background-color: #C68D00;
-    margin: 0;
-}
