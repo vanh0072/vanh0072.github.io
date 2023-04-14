@@ -165,36 +165,41 @@ li:nth-child(6) {
 
 .welcome {
     position: absolute;
-    top: auto;
     color: white;
-    bottom: 50%;
+    bottom: 20%;
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5); /* Black see-through */
     width: 100%;
-    font-size: 50px;
-    height: 40%;
+    font-size: 75px;
+    font-weight: bolder;
+    height: 75%;
+    padding: 10px;
+    line-height: 1.5;
 }
 
 .paragraph-1 {
     position: absolute;
-    top: auto;
     color: white;
-    bottom: 25%;
+    top: 50%;
     width: 100%;
     height: 50%;
+    font-size: 12pt;
+    padding: 10px;
+    line-height: 1.5;
 }
 
 .button1 {
     position: absolute;
     background-color: #c78c06; /* brand colour */
     border: none;
-    color: white;
+    color: black;
     text-align: left;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    padding: 14px 40px;
-    bottom: 55%;
+    padding: 20px 40px;
+    bottom: 20%;
+    margin: 10px;
 }
 
 .button1:hover {
@@ -210,6 +215,7 @@ li:nth-child(6) {
 .aboutus h2 {
     font-size: 30px;
     padding: 10px;
+    font-weight: 700;
 }
 
 .aboutusimage {
@@ -230,10 +236,17 @@ li:nth-child(6) {
 .services {
     font-size: 30px;
     padding: 10px;
+    font-weight: 700;
 }
 
 .ourservices h3 {
     font-size: 30px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.ourservices p {
+    padding: 10px;
 }
 
 .digital {
@@ -254,6 +267,7 @@ li:nth-child(6) {
     display: inline-block;
     font-size: 16px;
     padding: 14px 40px;
+    margin: 10px;
 }
 
 .marketing {
@@ -274,6 +288,7 @@ li:nth-child(6) {
     display: inline-block;
     font-size: 16px;
     padding: 14px 40px;
+    margin: 10px;
 }
 
 .videoproduction {
@@ -294,6 +309,7 @@ li:nth-child(6) {
     display: inline-block;
     font-size: 16px;
     padding: 14px 40px;
+    margin: 10px;
 }
 
 .webdev {
@@ -314,6 +330,7 @@ li:nth-child(6) {
     display: inline-block;
     font-size: 16px;
     padding: 14px 40px;
+    margin: 10px;
 }
 
 .print {
@@ -334,6 +351,7 @@ li:nth-child(6) {
     display: inline-block;
     font-size: 16px;
     padding: 14px 40px;
+    margin: 10px;
 }
 
 /* Vision container */
@@ -354,6 +372,8 @@ li:nth-child(6) {
     position: absolute;
     bottom: 20rem;
     padding: 10px;
+    font-weight: 700;
+    font-size: 30px;
 }
 
 .visioninfo p {
@@ -376,6 +396,7 @@ li:nth-child(6) {
 /* Our Team container */
 .team {
     padding: 10px;
+    font-size: 700;
 }
 
 .team img {
@@ -386,6 +407,7 @@ li:nth-child(6) {
 .team h2 {
     font-size: 30px;
     padding-bottom: 10px;
+    font-size: 700;
 }
 
 .team .john {
@@ -401,11 +423,13 @@ li:nth-child(6) {
 .john h3 {
     font-size: 20px;
     padding-bottom: 10px;
+    font-weight: 700;
 }
 
 .bob h3 {
     font-size: 20px;
     padding-bottom: 10px;
+    font-weight: 700;
 }
 
 .john h4 {
@@ -429,6 +453,7 @@ li:nth-child(6) {
 
 .contact h3 {
     padding-bottom: 10px;
+    font-weight: 700;
 }
 
 .contact button {
