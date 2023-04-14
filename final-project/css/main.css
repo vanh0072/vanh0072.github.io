@@ -149,47 +149,43 @@ li:nth-child(6) {
 
 /* Welcome container */
 .welcomepage {
-    position: relative;
     width: 100%;
     text-align: left;
     color: white;
+    background-image: url("/images/main-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .mainbanner {
-    display: block;
     width: 100%;
     height: auto;
 }
 
 .welcome {
-    position: absolute;
     color: white;
-    background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5); /* Black see-through */
     width: 100%;
     font-size: 70px;
     font-weight: bolder;
-    height: 80%;
+    height: 100%;
     padding: 10px;
     line-height: 1.5;
-    z-index: 1;
     bottom: 70px;
 }
 
 .paragraph-1 {
-    position: absolute;
     color: white;
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
     top: 50%;
     width: 100%;
     height: 50%;
     font-size: 12pt;
     padding: 10px;
     line-height: 1.5;
-    z-index: 1;
 }
 
 .button1 {
-    position: absolute;
     background-color: #c78c06; /* brand colour */
     border: none;
     color: black;
@@ -200,7 +196,6 @@ li:nth-child(6) {
     padding: 20px 40px;
     bottom: 15%;
     margin: 10px;
-    z-index: 1;
 }
 
 .button1:hover {
@@ -371,13 +366,11 @@ li:nth-child(6) {
     width: 100%;
     object-fit: cover;
     object-position: center;
-    height: 60%;
+    height: 300px;
 }
 
 .imagevision {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    display: flex;
     position: relative;
     color: white;
     align-items: center;
@@ -385,7 +378,7 @@ li:nth-child(6) {
 
 .imagevision h3 {
     position: absolute;
-    bottom: 60%;
+    bottom: 70%;
     padding: 20px;
     font-weight: 700;
     font-size: 30px;
@@ -400,7 +393,7 @@ li:nth-child(6) {
 
 .imagevision button {
     position: absolute;
-    bottom: 20%;
+    bottom: 5%;
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5); /* Black see-through */
     padding: 20px;
@@ -425,6 +418,7 @@ li:nth-child(6) {
     font-size: 40px;
     padding: 10px;
     font-weight: 700;
+    padding-top: 30px;
 }
 
 .team .john {
@@ -526,11 +520,13 @@ hr {
 .hours h2 {
     font-size: 30px;
     font-weight: 700;
+    padding: 10px;
 }
 
 .hours table {
     border: 1px solid;
     width: 100%;
+    margin: 10px;
 }
 
 .hours th, td {
@@ -550,12 +546,14 @@ hr {
 .location h2 {
     font-size: 30px;
     font-weight: 700;
+    padding: 10px;
 }
 
 .map {
     border: 0;
     width: 100%;
     height: 500px;
+    margin: 10px;
 }
 
 .footer {
