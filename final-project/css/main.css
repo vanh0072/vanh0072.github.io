@@ -48,508 +48,617 @@ table {
 }
 /* end of css reset */
 
-* {
-    box-sizing: border-box;
+@media screen and (max-width: 1200px){
+    /* Styles applied below width of 1200px */
+    * {
+        box-sizing: border-box;
+    }
+
+    .wrapper {
+        margin: auto;
+        width: 100%;
+    }
+
+    body {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    /* header and navigation links - using nth child to target specific nav links */
+    .header {
+        background-color: black;
+        padding: 10px;
+    }
+
+    .headercontainer {
+        background-color: #c78c06;
+    }
+
+    .headercontainer a {
+        color: black;
+        text-decoration: none;
+    }
+
+    a {
+        color: #c78c06;
+        text-decoration: none;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+    nav ul li {
+        list-style-type: none;
+        text-align: center;
+        color: white;
+        padding: 20px;
+    }
+
+    h1 {
+        background-color: #c78c06;
+        margin: 0;
+        padding-bottom: 60px;
+    }
+
+    li:nth-child(2) {
+        padding: 20px;
+        margin: 0;
+        list-style-type: none;
+        text-align: center;
+    }
+
+    li:nth-child(3) {
+        padding: 20px;
+        margin: 0;
+        list-style-type: none;
+        text-align: center;
+    }
+
+    li:nth-child(4) {
+        padding: 20px;
+        margin: 0;
+        list-style-type: none;
+        text-align: center;
+    }
+
+    li:nth-child(5) {
+        padding: 20px;
+        margin: 0;
+        list-style-type: none;
+        text-align: center;
+    }
+
+    li:nth-child(6) {
+        padding: 20px;
+        margin: 0;
+        list-style-type: none;
+        text-align: center;
+    }
+
+    #search {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .searchbutton {
+        background-color: black;
+        border: solid #c78c06;
+    }
+
+    .searchbutton .fa-solid {
+        color: #c78c06;
+    }
+
+    /* Welcome container */
+    .welcomepage {
+        width: 100%;
+        text-align: left;
+        color: white;
+        background-image: url("/images/main-banner.jpg");
+        height: 600px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .welcome {
+        color: white;
+        width: 100%;
+        font-size: 70px;
+        font-weight: bolder;
+        height: 100%;
+        line-height: 1.5;
+    }
+
+    .overlay {
+        position: absolute;
+        color: white;
+        background: rgba(0, 0, 0, 0.5); /* Black see-through */
+        font-size: 12pt;
+        padding-left: 20px;
+        line-height: 1.5;
+        top: 80%;
+    }
+
+    .button1 {
+        background-color: #c78c06; /* brand colour */
+        border: none;
+        color: black;
+        text-align: left;
+        text-decoration: none;
+        font-size: 16px;
+        padding: 20px 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .button1:hover {
+        background-color: white;
+    }
+
+    .button1 .fa-solid {
+        padding: 10px;
+    }
+
+    /* About Us container */
+    .aboutus {
+        background-color: #ffe6ac;
+        padding: 10px;
+    }
+
+    .aboutus h2 {
+        font-size: 40px;
+        padding: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-weight: 700;
+    }
+
+    .aboutusimage {
+        width: 100%;
+        height: auto;
+    }
+
+    .paragraph3 {
+        padding: 10px;
+        line-height: 1.5;
+    }
+
+    /* Services container */
+    .ourservices {
+        padding: 10px;
+    }
+
+    .services {
+        font-size: 40px;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+
+    .ourservices h3 {
+        font-size: 30px;
+        font-weight: 700;
+        padding: 10px;
+    }
+
+    .ourservices p {
+        padding: 10px;
+        line-height: 1.5;
+    }
+
+    .digital {
+        background-color: #ffe6ac;
+        margin-bottom: 10px;
+    }
+
+    .digital img {
+        width: 100%;
+        height: auto;
+    }
+
+    .digital button {
+        background-color: black; /* brand colour */
+        border: none;
+        color: white;
+        text-align: left;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 30px 40px;
+        margin: 10px;
+    }
+
+    .marketing {
+        background-color: #ffe6ac;
+        margin-bottom: 10px;
+    }
+
+    .marketing img {
+        width: 100%;
+        height: auto;
+    }
+
+    .marketing button {
+        background-color: black; /* brand colour */
+        border: none;
+        color: white;
+        text-align: left;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 30px 40px;
+        margin: 10px;
+    }
+
+    .videoproduction {
+        background-color: #ffe6ac;
+        margin-bottom: 10px;
+    }
+
+    .videoproduction img {
+        width: 100%;
+        height: auto;
+    }
+
+    .videoproduction button {
+        background-color: black; /* brand colour */
+        border: none;
+        color: white;
+        text-align: left;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 30px 40px;
+        margin: 10px;
+    }
+
+    .webdev {
+        background-color: #ffe6ac;
+        margin-bottom: 10px;
+    }
+
+    .webdev img {
+        width: 100%;
+        height: auto;
+    }
+
+    .webdev button {
+        background-color: black; /* brand colour */
+        border: none;
+        color: white;
+        text-align: left;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 30px 40px;
+        margin: 10px;
+    }
+
+    .print {
+        background-color: #ffe6ac;
+    }
+
+    .print img {
+        width: 100%;
+        height: auto;
+    }
+
+    .print button {
+        background-color: black; /* brand colour */
+        border: none;
+        color: white;
+        text-align: left;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 30px 40px;
+        margin: 10px;
+    }
+
+    .fa-solid {
+        padding: 10px;
+    }
+
+    /* Vision container */
+    .imagevision img {
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        height: 300px;
+    }
+
+    .imagevision {
+        display: flex;
+        position: relative;
+        color: white;
+        align-items: center;
+    }
+
+    .imagevision h3 {
+        position: absolute;
+        bottom: 70%;
+        padding: 20px;
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .imagevision p {
+        position: absolute;
+        bottom: 40%;
+        padding: 20px;
+        line-height: 1.5;
+    }
+
+    .imagevision button {
+        position: absolute;
+        bottom: 5%;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); /* Black see-through */
+        padding: 20px;
+        color: white;
+        border: solid #c78c06;
+        margin: 20px;
+        font-size: 20px;
+    }
+
+    /* Our Team container */
+    .team {
+        padding: 10px;
+        padding-bottom: 10px;
+    }
+
+    .team img {
+        width: 100%;
+        height: auto;
+    }
+
+    .team h2 {
+        font-size: 40px;
+        padding: 10px;
+        font-weight: 700;
+        padding-top: 30px;
+    }
+
+    .team .john {
+        background-color: #ffe6ac;
+        padding-bottom: 10px;
+        margin: 10px;
+    }
+
+    .team .bob {
+        background-color: #ffe6ac;
+        padding-bottom: 10px;
+        margin: 10px;
+    }
+
+    .john h3 {
+        font-size: 30px;
+        padding: 10px;
+        font-weight: 700;
+    }
+
+    .bob h3 {
+        font-size: 30px;
+        padding: 10px;
+        font-weight: 700;
+    }
+
+    .john h4 {
+        padding-left: 10px;
+        font-weight: 700;
+    }
+
+    .bob h4 {
+        font-weight: 700;
+        padding-left: 10px;
+    }
+
+    .team p {
+        padding: 10px;
+        line-height: 1.5;
+    }
+
+    hr {
+        border: solid #c78c06;
+        margin: 10px;
+    }
+
+    /* Contact Us container */
+    .contact {
+        padding: 10px;
+    }
+
+    .contact h2 {
+        font-size: 40px;
+        font-weight: 700;
+        padding-bottom: 20px;
+        margin: 10px;
+    }
+
+    .contact h3 {
+        padding-bottom: 10px;
+        font-weight: 700;
+        margin: 10px;
+        font-size: 30px;
+    }
+
+    .contact button {
+        background-color: black;
+        color:#c78c06;
+        margin: 10px;
+    }
+
+    .contact #fullname {
+        width: 98%;
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .contact #email {
+        width: 98%;
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .contact #message {
+        width: 98%;
+        padding: 50px;
+        margin: 10px;
+    }
+
+    .form .name, .email, .message {
+        padding: 10px;
+    }
+
+    /* Hours container */
+    .hours {
+        padding: 10px;
+    }
+
+    .hours h2 {
+        font-size: 30px;
+        font-weight: 700;
+        padding: 10px;
+    }
+
+    .hours table {
+        border: 1px solid;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .hours th, td {
+        border: 1px solid;
+        padding: 10px;
+    }
+
+    .hours th {
+        background-color: #ffe6ac;
+    }
+
+    /* Location container */
+    .location {
+        padding: 10px;
+    }
+
+    .location h2 {
+        font-size: 30px;
+        font-weight: 700;
+        padding: 10px;
+    }
+
+    .map {
+        border: 0;
+        width: 100%;
+        height: 500px;
+        margin: 10px;
+    }
+
+    .footer {
+        background-color: black;
+        color: #c78c06;
+        padding: 20px;
+        line-height: 2;
+        padding-top: 30px;
+    }
+}
+
+@media screen and (min-width: 760px){
+    /* Styles applied for minimum width of 760px and over */
+    .header {
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: none;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .headercontainer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: none;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .headercontainer a {
+        color: black;
+        background-color: #c78c06;
+        padding: 20px 30px;
+        text-decoration: none;
+    }
+    
+    a {
+        color: #c78c06;
+        text-decoration: none;
+    }
+    
+    nav ul {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: none;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    nav ul li {
+        list-style-type: none;
+        text-align: center;
+        color: white;
+        padding: 20px;
+    }
+    
+    h1 {
+        margin: 0;
+        padding-bottom: 60px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: none;
+        align-items: center;
+    }
+
+    li:nth-child(2) {
+        padding: 20px;
+        margin: 0;
+        list-style-type: none;
+        text-align: center;
+    }
+
+    li:nth-child(3) {
+        padding: 20px;
+        margin: 0;
+        list-style-type: none;
+        text-align: center;
+    }
+
+    li:nth-child(4) {
+        padding: 20px;
+        margin: 0;
+        list-style-type: none;
+        text-align: center;
+    }
+
+    li:nth-child(5) {
+        padding: 20px;
+        margin: 0;
+        list-style-type: none;
+        text-align: center;
+    }
+
+    li:nth-child(6) {
+        padding: 20px;
+        margin: 0;
+        list-style-type: none;
+        text-align: center;
+    }
+
+    #search {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .searchbutton {
+        background-color: black;
+        border: solid #c78c06;
+    }
+
+    .searchbutton .fa-solid {
+        color: #c78c06;
+    }
 }
-
-.wrapper {
-    margin: auto;
-    width: 100%;
-}
-
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-
-/* header and navigation links - using nth child to target specific nav links */
-.header {
-    background-color: black;
-    padding: 10px;
-}
-
-.headercontainer {
-    background-color: #c78c06;
-}
-
-.headercontainer a {
-    color: black;
-    text-decoration: none;
-}
-
-a {
-    color: #c78c06;
-    text-decoration: none;
-}
-
-nav ul {
-    padding: 0;
-}
-
-nav ul li {
-    list-style-type: none;
-    text-align: center;
-    color: white;
-    padding: 20px;
-}
-
-h1 {
-    background-color: #c78c06;
-    margin: 0;
-    padding-bottom: 60px;
-}
-
-li:nth-child(2) {
-    padding: 20px;
-    margin: 0;
-    list-style-type: none;
-    text-align: center;
-}
-
-li:nth-child(3) {
-    padding: 20px;
-    margin: 0;
-    list-style-type: none;
-    text-align: center;
-}
-
-li:nth-child(4) {
-    padding: 20px;
-    margin: 0;
-    list-style-type: none;
-    text-align: center;
-}
-
-li:nth-child(5) {
-    padding: 20px;
-    margin: 0;
-    list-style-type: none;
-    text-align: center;
-}
-
-li:nth-child(6) {
-    padding: 20px;
-    margin: 0;
-    list-style-type: none;
-    text-align: center;
-}
-
-#search {
-    width: 90%;
-    padding: 10px;
-}
-
-.searchbutton {
-    background-color: black;
-    border: solid #c78c06;
-}
-
-.searchbutton .fa-solid {
-    color: #c78c06;
-}
-
-/* Welcome container */
-.welcomepage {
-    width: 100%;
-    text-align: left;
-    color: white;
-    background-image: url("/images/main-banner.jpg");
-    height: 600px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.welcome {
-    color: white;
-    width: 100%;
-    font-size: 70px;
-    font-weight: bolder;
-    height: 100%;
-    padding: 10px;
-    line-height: 1.5;
-}
-
-.overlay {
-    color: white;
-    background: rgba(0, 0, 0, 0.5); /* Black see-through */
-    font-size: 12pt;
-    padding: 10px;
-    line-height: 1.5;
-}
-
-.button1 {
-    background-color: #c78c06; /* brand colour */
-    border: none;
-    color: black;
-    text-align: left;
-    text-decoration: none;
-    font-size: 16px;
-    padding: 20px 40px;
-    margin: 10px;
-}
-
-.button1:hover {
-    background-color: white;
-}
-
-.button1 .fa-solid {
-    padding: 10px;
-}
-
-/* About Us container */
-.aboutus {
-    background-color: #ffe6ac;
-    padding: 10px;
-}
-
-.aboutus h2 {
-    font-size: 40px;
-    padding: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-weight: 700;
-}
-
-.aboutusimage {
-    width: 100%;
-    height: auto;
-}
-
-.paragraph3 {
-    padding: 10px;
-    line-height: 1.5;
-}
-
-/* Services container */
-.ourservices {
-    padding: 10px;
-}
-
-.services {
-    font-size: 40px;
-    font-weight: 700;
-    padding-bottom: 20px;
-}
-
-.ourservices h3 {
-    font-size: 30px;
-    font-weight: 700;
-    padding: 10px;
-}
-
-.ourservices p {
-    padding: 10px;
-    line-height: 1.5;
-}
-
-.digital {
-    background-color: #ffe6ac;
-}
-
-.digital img {
-    width: 100%;
-    height: auto;
-}
-
-.digital button {
-    background-color: black; /* brand colour */
-    border: none;
-    color: white;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    padding: 30px 40px;
-    margin: 10px;
-}
-
-.marketing {
-    background-color: #ffe6ac;
-}
-
-.marketing img {
-    width: 100%;
-    height: auto;
-}
-
-.marketing button {
-    background-color: black; /* brand colour */
-    border: none;
-    color: white;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    padding: 30px 40px;
-    margin: 10px;
-}
-
-.videoproduction {
-    background-color: #ffe6ac;
-}
-
-.videoproduction img {
-    width: 100%;
-    height: auto;
-}
-
-.videoproduction button {
-    background-color: black; /* brand colour */
-    border: none;
-    color: white;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    padding: 30px 40px;
-    margin: 10px;
-}
-
-.webdev {
-    background-color: #ffe6ac;
-}
-
-.webdev img {
-    width: 100%;
-    height: auto;
-}
-
-.webdev button {
-    background-color: black; /* brand colour */
-    border: none;
-    color: white;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    padding: 30px 40px;
-    margin: 10px;
-}
-
-.print {
-    background-color: #ffe6ac;
-}
-
-.print img {
-    width: 100%;
-    height: auto;
-}
-
-.print button {
-    background-color: black; /* brand colour */
-    border: none;
-    color: white;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    padding: 30px 40px;
-    margin: 10px;
-}
-
-.fa-solid {
-    padding: 10px;
-}
-
-/* Vision container */
-.imagevision img {
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-    height: 300px;
-}
-
-.imagevision {
-    display: flex;
-    position: relative;
-    color: white;
-    align-items: center;
-}
-
-.imagevision h3 {
-    position: absolute;
-    bottom: 70%;
-    padding: 20px;
-    font-weight: 700;
-    font-size: 30px;
-}
-
-.imagevision p {
-    position: absolute;
-    bottom: 40%;
-    padding: 20px;
-    line-height: 1.5;
-}
-
-.imagevision button {
-    position: absolute;
-    bottom: 5%;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); /* Black see-through */
-    padding: 20px;
-    color: white;
-    border: solid #c78c06;
-    margin: 20px;
-    font-size: 20px;
-}
-
-/* Our Team container */
-.team {
-    padding: 10px;
-    padding-bottom: 10px;
-}
-
-.team img {
-    width: 100%;
-    height: auto;
-}
-
-.team h2 {
-    font-size: 40px;
-    padding: 10px;
-    font-weight: 700;
-    padding-top: 30px;
-}
-
-.team .john {
-    background-color: #ffe6ac;
-    padding-bottom: 10px;
-    margin: 10px;
-}
-
-.team .bob {
-    background-color: #ffe6ac;
-    padding-bottom: 10px;
-    margin: 10px;
-}
-
-.john h3 {
-    font-size: 30px;
-    padding: 10px;
-    font-weight: 700;
-}
-
-.bob h3 {
-    font-size: 30px;
-    padding: 10px;
-    font-weight: 700;
-}
-
-.john h4 {
-    padding-left: 10px;
-    font-weight: 700;
-}
-
-.bob h4 {
-    font-weight: 700;
-    padding-left: 10px;
-}
-
-.team p {
-    padding: 10px;
-    line-height: 1.5;
-}
-
-hr {
-    border: solid #c78c06;
-    margin: 10px;
-}
-
-/* Contact Us container */
-.contact {
-    padding: 10px;
-}
-
-.contact h2 {
-    font-size: 40px;
-    font-weight: 700;
-    padding-bottom: 20px;
-    margin: 10px;
-}
-
-.contact h3 {
-    padding-bottom: 10px;
-    font-weight: 700;
-    margin: 10px;
-    font-size: 30px;
-}
-
-.contact button {
-    background-color: black;
-    color:#c78c06;
-    margin: 10px;
-}
-
-.contact #fullname {
-    width: 100%;
-    margin: 10px;
-    padding: 5px;
-}
-
-.contact #email {
-    width: 100%;
-    margin: 10px;
-    padding: 5px;
-}
-
-.contact #message {
-    width: 100%;
-    padding: 50px;
-    margin: 10px;
-}
-
-.form .name, .email, .message {
-    padding: 10px;
-}
-
-/* Hours container */
-.hours {
-    padding: 10px;
-}
-
-.hours h2 {
-    font-size: 30px;
-    font-weight: 700;
-    padding: 10px;
-}
-
-.hours table {
-    border: 1px solid;
-    width: 100%;
-    margin: 10px;
-}
-
-.hours th, td {
-    border: 1px solid;
-    padding: 10px;
-}
-
-.hours th {
-    background-color: #ffe6ac;
-}
-
-/* Location container */
-.location {
-    padding: 10px;
-}
-
-.location h2 {
-    font-size: 30px;
-    font-weight: 700;
-    padding: 10px;
-}
-
-.map {
-    border: 0;
-    width: 100%;
-    height: 500px;
-    margin: 10px;
-}
-
-.footer {
-    background-color: black;
-    color: #c78c06;
-    padding: 20px;
-    line-height: 2;
-    padding-top: 30px;
-}
-
