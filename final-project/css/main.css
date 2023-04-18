@@ -731,10 +731,7 @@ table {
 
     /* Services container */
     .ourservices {
-        padding: 10px;
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        padding: 50px;
     }
 
     .services {
@@ -754,12 +751,20 @@ table {
         line-height: 1.5;
     }
 
-    .digital {
+    .grid {
+        display: grid;
+        grid-template-areas: 
+        "digital digital digital marketing marketing marketing"
+        "video video web web print print";
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 1em;
+    }
+
+   .digital {
         background-color: #ffe6ac;
         margin-bottom: 10px;
-        grid-column-start: 1;
-        grid-row-start: 3;
-        grid-row-end: span 2;
+        grid-area: digital;
     }
 
     .digital img {
@@ -849,7 +854,6 @@ table {
     .print {
         background-color: #ffe6ac;
         grid-area: print;
-
     }
 
     .print img {
