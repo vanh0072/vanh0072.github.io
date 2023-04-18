@@ -756,14 +756,13 @@ table {
         grid-template-areas: 
         "digital digital digital marketing marketing marketing"
         "video video web web print print";
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(6, 1fr);
         grid-template-rows: 1fr 1fr;
         grid-gap: 1em;
     }
 
    .digital {
         background-color: #ffe6ac;
-        margin-bottom: 10px;
         grid-area: digital;
     }
 
@@ -776,16 +775,16 @@ table {
         background-color: black; /* brand colour */
         border: none;
         color: white;
-        text-align: left;
+        text-align: center;
         text-decoration: none;
         font-size: 20px;
-        padding: 30px 40px;
-        margin: 10px;
+        padding: 30px 178px 30px 178px;
+        margin-left: 20px;
+        margin-top: 20px;
     }
 
     .marketing {
         background-color: #ffe6ac;
-        margin-bottom: 10px;
         grid-area: marketing;
     }
 
@@ -801,15 +800,14 @@ table {
         text-align: left;
         text-decoration: none;
         font-size: 20px;
-        padding: 30px 40px;
-        margin: 10px;
+        padding: 30px 178px 30px 178px;
+        margin-left: 10px;
+        margin-top: 10px;
     }
 
     .videoproduction {
         background-color: #ffe6ac;
-        margin-bottom: 10px;
         grid-area: video;
-
     }
 
     .videoproduction img {
@@ -830,9 +828,7 @@ table {
 
     .webdev {
         background-color: #ffe6ac;
-        margin-bottom: 10px;
         grid-area: web;
-
     }
 
     .webdev img {
