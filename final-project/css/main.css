@@ -220,15 +220,15 @@ table {
     /* Services container */
     .ourservices {
         padding: 10px;
-        grid-template-areas: 
+        /*grid-template-areas: 
         "digital"
         "marketing"
         "video"
-        "web"
+        "webdev"
         "print";
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
+        grid-template-rows: 1fr;*/
     }
 
     .services {
@@ -251,7 +251,7 @@ table {
     .digital {
         background-color: #ffe6ac;
         margin-bottom: 10px;
-        grid-area: digital;
+        /*grid-area: digital;*/
     }
 
     .digital img {
@@ -273,8 +273,7 @@ table {
     .marketing {
         background-color: #ffe6ac;
         margin-bottom: 10px;
-        grid-area: marketing;
-
+        /*grid-area: marketing;*/
     }
 
     .marketing img {
@@ -296,8 +295,7 @@ table {
     .videoproduction {
         background-color: #ffe6ac;
         margin-bottom: 10px;
-        grid-area: video;
-
+        /*grid-area: video;*/
     }
 
     .videoproduction img {
@@ -319,8 +317,7 @@ table {
     .webdev {
         background-color: #ffe6ac;
         margin-bottom: 10px;
-        grid-area: web;
-
+        /*grid-area: webdev;*/
     }
 
     .webdev img {
@@ -341,8 +338,7 @@ table {
 
     .print {
         background-color: #ffe6ac;
-        grid-area: print;
-
+        /*grid-area: print;*/
     }
 
     .print img {
@@ -411,14 +407,14 @@ table {
     .team {
         padding: 10px;
         padding-bottom: 10px;
-        grid-template-areas: 
+        /*grid-template-areas: 
         "john"
         "bob"
         "johnimg"
         "bobimg";
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
+        grid-template-rows: 1fr;*/
     }
 
     .team img {
@@ -437,22 +433,22 @@ table {
         background-color: #ffe6ac;
         padding-bottom: 10px;
         margin: 10px;
-        grid-area: john;
+        /*grid-area: john;*/
     }
 
     .team .john img {
-        grid-area: johnimg;
+        /*grid-area: johnimg;*/
     }
 
     .team .bob {
         background-color: #ffe6ac;
         padding-bottom: 10px;
         margin: 10px;
-        grid-area: bob;
+        /*grid-area: bob;*/
     }
 
     .team .bob img {
-        grid-area: bobimg;
+        /*grid-area: bobimg;*/
     }
 
     .john h3 {
@@ -772,9 +768,9 @@ table {
 
     .grid {
         display: grid;
-        grid-template-areas: 
-        "digital digital digital marketing marketing marketing"
-        "video video web web print print";
+        grid-template-areas: "digital digital digital marketing marketing marketing"
+        "video video webdev webdev print print"
+        ;
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: 1fr 1fr;
         grid-gap: 1em;
@@ -854,7 +850,7 @@ table {
 
     .webdev {
         background-color: #ffe6ac;
-        grid-area: web;
+        grid-area: webdev;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -954,11 +950,12 @@ table {
         padding-bottom: 10px;
     }
 
-    .grid {
+    .grid2 {
         display: grid;
         grid-template-areas: 
-        ""
-        "";
+        "johnimg john"
+        "bob bobimg"
+        ;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 2fr 2fr;
         grid-gap: 1em;
@@ -982,7 +979,11 @@ table {
         margin: 10px;
     }
 
-    .team .john img {
+    .john {
+        grid-area: john;
+    }
+
+    .johnimg {
         grid-area: johnimg;
     }
 
@@ -990,6 +991,7 @@ table {
         background-color: #ffe6ac;
         padding-bottom: 10px;
         margin: 10px;
+        grid-area: bob;
     }
 
     .team .bob img {
