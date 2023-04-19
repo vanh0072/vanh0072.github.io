@@ -749,6 +749,7 @@ table {
     .ourservices {
         padding: 100px;
         padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .services {
@@ -972,7 +973,7 @@ table {
         font-size: 40px;
         padding: 10px;
         font-weight: 700;
-        padding-top: 30px;
+        padding-top: 50px;
         padding-left: 100px;
     }
 
