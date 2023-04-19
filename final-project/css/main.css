@@ -948,7 +948,6 @@ table {
 
     /* Our Team container */
     .team {
-        padding: 10px;
         padding-bottom: 10px;
     }
 
@@ -959,7 +958,7 @@ table {
         "bob bobimg"
         ;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 2fr 2fr;
+        grid-template-rows: 1fr 1fr;
         margin: 100px;
         margin-top: 30px;
     }
@@ -1038,10 +1037,9 @@ table {
         "hours hours"
         ;
         grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: 1fr;
+        grid-template-rows: 1fr;
         padding: 100px;
-        padding-top: 30px;
-
+        padding-top: 0;
     }
 
     /* Contact Us container */
