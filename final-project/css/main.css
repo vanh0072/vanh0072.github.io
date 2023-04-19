@@ -47,7 +47,6 @@ table {
 	border-spacing: 0;
 }
 /* end of css reset */
-
 @media screen and (max-width: 1200px){
     /* Styles applied below width of 1200px */
     * {
@@ -229,7 +228,7 @@ table {
         "print";
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, 1fr);
+        grid-template-rows: 1fr;
     }
 
     .services {
@@ -412,6 +411,14 @@ table {
     .team {
         padding: 10px;
         padding-bottom: 10px;
+        grid-template-areas: 
+        "john"
+        "bob"
+        "johnimg"
+        "bobimg";
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
     }
 
     .team img {
@@ -430,12 +437,22 @@ table {
         background-color: #ffe6ac;
         padding-bottom: 10px;
         margin: 10px;
+        grid-area: john;
+    }
+
+    .team .john img {
+        grid-area: johnimg;
     }
 
     .team .bob {
         background-color: #ffe6ac;
         padding-bottom: 10px;
         margin: 10px;
+        grid-area: bob;
+    }
+
+    .team .bob img {
+        grid-area: bobimg;
     }
 
     .john h3 {
@@ -572,6 +589,7 @@ table {
 
 @media screen and (min-width: 760px){
     /* Styles applied for minimum width of 760px and over */
+
     * {
         box-sizing: border-box;
     }
@@ -625,14 +643,14 @@ table {
     }
 
     #search {
-        width: 80%;
+        width: 60%;
         padding: 10px;
     }
 
     .searchbutton {
         background-color: black;
         border: solid #c78c06;
-        padding: 10px;
+        padding: 2px;
     }
 
     .searchbutton .fa-solid {
@@ -731,13 +749,14 @@ table {
 
     /* Services container */
     .ourservices {
-        padding: 50px;
+        padding: 100px;
+        padding-top: 50px;
     }
 
     .services {
         font-size: 40px;
         font-weight: 700;
-        padding-bottom: 20px;
+        padding-bottom: 50px;
     }
 
     .ourservices h3 {
@@ -764,6 +783,9 @@ table {
    .digital {
         background-color: #ffe6ac;
         grid-area: digital;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .digital img {
@@ -778,14 +800,16 @@ table {
         text-align: center;
         text-decoration: none;
         font-size: 20px;
-        padding: 30px 178px 30px 178px;
-        margin-left: 20px;
-        margin-top: 20px;
+        padding: 30px 40px;
+        margin: 10px;
     }
 
     .marketing {
         background-color: #ffe6ac;
         grid-area: marketing;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .marketing img {
@@ -797,17 +821,19 @@ table {
         background-color: black; /* brand colour */
         border: none;
         color: white;
-        text-align: left;
+        text-align: center;
         text-decoration: none;
         font-size: 20px;
-        padding: 30px 178px 30px 178px;
-        margin-left: 10px;
-        margin-top: 10px;
+        padding: 30px 40px;
+        margin: 10px;
     }
 
     .videoproduction {
         background-color: #ffe6ac;
         grid-area: video;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .videoproduction img {
@@ -819,7 +845,7 @@ table {
         background-color: black; /* brand colour */
         border: none;
         color: white;
-        text-align: left;
+        text-align: center;
         text-decoration: none;
         font-size: 20px;
         padding: 30px 40px;
@@ -829,6 +855,9 @@ table {
     .webdev {
         background-color: #ffe6ac;
         grid-area: web;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .webdev img {
@@ -840,7 +869,7 @@ table {
         background-color: black; /* brand colour */
         border: none;
         color: white;
-        text-align: left;
+        text-align: center;
         text-decoration: none;
         font-size: 20px;
         padding: 30px 40px;
@@ -850,6 +879,9 @@ table {
     .print {
         background-color: #ffe6ac;
         grid-area: print;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .print img {
@@ -861,7 +893,7 @@ table {
         background-color: black; /* brand colour */
         border: none;
         color: white;
-        text-align: left;
+        text-align: center;
         text-decoration: none;
         font-size: 20px;
         padding: 30px 40px;
@@ -871,3 +903,128 @@ table {
     .fa-solid {
         padding: 10px;
     }
+
+    /* Vision container */
+    .imagevision img {
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        height: 250px;
+    }
+
+    .imagevision {
+        display: flex;
+        position: relative;
+        color: white;
+    }
+
+    .imagevision h3 {
+        position: absolute;
+        bottom: 70%;
+        padding: 20px;
+        font-weight: 700;
+        font-size: 30px;
+        margin-left: 80px;
+    }
+
+    .imagevision p {
+        position: absolute;
+        bottom: 40%;
+        padding: 20px;
+        line-height: 1.5;
+        margin-left: 80px;
+        margin-right: 50px;
+    }
+
+    .imagevision button {
+        position: absolute;
+        bottom: 5%;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); /* Black see-through */
+        padding: 20px;
+        color: white;
+        border: solid #c78c06;
+        margin-left: 100px;
+        font-size: 20px;
+    }
+
+    /* Our Team container */
+    .team {
+        padding: 10px;
+        padding-bottom: 10px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-areas: 
+        ""
+        "";
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 2fr 2fr;
+        grid-gap: 1em;
+    }
+
+    .team img {
+        width: 100%;
+        height: auto;
+    }
+
+    .team h2 {
+        font-size: 40px;
+        padding: 10px;
+        font-weight: 700;
+        padding-top: 30px;
+    }
+
+    .team .john {
+        background-color: #ffe6ac;
+        padding-bottom: 10px;
+        margin: 10px;
+    }
+
+    .team .john img {
+        grid-area: johnimg;
+    }
+
+    .team .bob {
+        background-color: #ffe6ac;
+        padding-bottom: 10px;
+        margin: 10px;
+    }
+
+    .team .bob img {
+        grid-area: bobimg;
+    }
+
+    .john h3 {
+        font-size: 30px;
+        padding: 10px;
+        font-weight: 700;
+    }
+
+    .bob h3 {
+        font-size: 30px;
+        padding: 10px;
+        font-weight: 700;
+    }
+
+    .john h4 {
+        padding-left: 10px;
+        font-weight: 700;
+    }
+
+    .bob h4 {
+        font-weight: 700;
+        padding-left: 10px;
+    }
+
+    .team p {
+        padding: 10px;
+        line-height: 1.5;
+    }
+
+    hr {
+        border: solid #c78c06;
+        margin: 10px;
+    }
+}
