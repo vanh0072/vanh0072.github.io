@@ -211,7 +211,7 @@ table {
         font-weight: 700;
     }
 
-    .aboutusimage {
+    .aboutusimage img {
         width: 100%;
         height: auto;
     }
@@ -732,9 +732,9 @@ table {
     /* About Us container */
     .aboutus {
         background-color: #ffe6ac;
-        padding-right: 50px;
-        padding-left: 50px;
-        padding-bottom: 80px;
+        padding-right: 60px;
+        padding-left: 60px;
+        padding-bottom: 20px;
     }
 
     .aboutus h2 {
@@ -748,8 +748,10 @@ table {
     .aboutusimage img {
         width: 600px;
         float: left;
-        padding-top: 20px;
+        padding-top: 30px;
         padding-right: 20px;
+        padding-left: 50px;
+        height: auto;
         /*display: flex;
         align-items: center;
         justify-content: center;*/
@@ -758,6 +760,7 @@ table {
     .paragraph3 {
         line-height: 1.5;
         font-size: 16px;
+        padding-right: 20px;
     }
 
     /* Services container */
