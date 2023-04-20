@@ -59,7 +59,7 @@ table {
 
     /* header and navigation links - using nth child to target specific nav links */
     .header {
-        background-color: black;
+        background-color: #222;
         padding: 10px;
     }
 
@@ -68,7 +68,7 @@ table {
     }
 
     .headercontainer a {
-        color: black;
+        color: #222;
         text-decoration: none;
     }
 
@@ -139,7 +139,7 @@ table {
     }
 
     .searchbutton {
-        background-color: black;
+        background-color: #222;
         border: solid #c78c06;
     }
 
@@ -180,7 +180,7 @@ table {
     .button1 {
         background-color: #c78c06; /* brand colour */
         border: none;
-        color: black;
+        color: #222;
         text-align: left;
         text-decoration: none;
         font-size: 16px;
@@ -265,7 +265,7 @@ table {
     }
 
     .digital button {
-        background-color: black; /* brand colour */
+        background-color: #222; /* brand colour */
         border: none;
         color: white;
         text-align: left;
@@ -287,7 +287,7 @@ table {
     }
 
     .marketing button {
-        background-color: black; /* brand colour */
+        background-color: #222; /* brand colour */
         border: none;
         color: white;
         text-align: left;
@@ -309,7 +309,7 @@ table {
     }
 
     .videoproduction button {
-        background-color: black; /* brand colour */
+        background-color: #222; /* brand colour */
         border: none;
         color: white;
         text-align: left;
@@ -331,7 +331,7 @@ table {
     }
 
     .webdev button {
-        background-color: black; /* brand colour */
+        background-color: #222; /* brand colour */
         border: none;
         color: white;
         text-align: left;
@@ -352,7 +352,7 @@ table {
     }
 
     .print button {
-        background-color: black; /* brand colour */
+        background-color: #222; /* brand colour */
         border: none;
         color: white;
         text-align: left;
@@ -511,7 +511,7 @@ table {
     }
 
     .contact button {
-        background-color: black;
+        background-color: #222;
         color:#c78c06;
         margin: 10px;
     }
@@ -583,7 +583,7 @@ table {
     }
 
     .footer {
-        background-color: black;
+        background-color: #222;
         color: #c78c06;
         padding: 20px;
         line-height: 2;
@@ -611,7 +611,7 @@ table {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: black;
+        background-color: #222;
     }
 
     .headercontainer {
@@ -623,7 +623,7 @@ table {
     .headercontainer a {
         list-style-type: none;
         text-align: center;
-        color: black;
+        color: #222;
         display: flex;
         justify-content: center;
         padding: 20px 40px;
@@ -660,7 +660,7 @@ table {
     }
 
     .searchbutton {
-        background-color: black;
+        background-color: #222;
         border: solid #c78c06;
         padding: 2px;
     }
@@ -716,7 +716,7 @@ table {
     .button1 {
         background-color: #c78c06; /* brand colour */
         border: none;
-        color: black;
+        color: #222;
         text-align: left;
         text-decoration: none;
         font-size: 25px;
@@ -815,7 +815,7 @@ table {
     }
 
     .digital button {
-        background-color: black; /* brand colour */
+        background-color: #222; /* brand colour */
         border: none;
         color: white;
         text-align: center;
@@ -839,7 +839,7 @@ table {
     }
 
     .marketing button {
-        background-color: black; /* brand colour */
+        background-color: #222; /* brand colour */
         border: none;
         color: white;
         text-align: center;
@@ -863,7 +863,7 @@ table {
     }
 
     .videoproduction button {
-        background-color: black; /* brand colour */
+        background-color: #222; /* brand colour */
         border: none;
         color: white;
         text-align: center;
@@ -887,7 +887,7 @@ table {
     }
 
     .webdev button {
-        background-color: black; /* brand colour */
+        background-color: #222; /* brand colour */
         border: none;
         color: white;
         text-align: center;
@@ -911,7 +911,7 @@ table {
     }
 
     .print button {
-        background-color: black; /* brand colour */
+        background-color: #222; /* brand colour */
         border: none;
         color: white;
         text-align: center;
@@ -1086,7 +1086,7 @@ table {
     }
 
     .contact button {
-        background-color: black;
+        background-color: #222;
         color:#c78c06;
         margin: 10px;
     }
@@ -1160,7 +1160,7 @@ table {
     }
 
     .footer {
-        background-color: black;
+        background-color: #222;
         color: #c78c06;
         padding: 20px;
         line-height: 2;
