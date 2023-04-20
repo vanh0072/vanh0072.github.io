@@ -656,6 +656,7 @@ table {
     }
 
     /* Welcome page container */
+    /* targets whole container */
     .welcomepage {
         width: 100%;
         text-align: left;
@@ -666,6 +667,7 @@ table {
         background-repeat: no-repeat;
     }
 
+    /* targets h2 */
     .welcome {
         color: white;
         width: 100%;
@@ -676,18 +678,19 @@ table {
     }
 
     .overlay {
-        position: absolute;
+        position: relative;
         color: white;
         background: rgba(0, 0, 0, 0.5); /* Black see-through */
         font-size: 12pt;
         padding-left: 20px;
         line-height: 1.5;
         bottom: 50%;
+        width: 75%;
     }
 
     .overlay_1 {
-        left: 15%;
-        right: 15%;
+        left: 12%;
+        top: 30%;
     }
 
     .button1 {
