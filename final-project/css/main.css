@@ -220,6 +220,7 @@ table {
     /* Services container */
     .ourservices {
         padding: 10px;
+        padding-top: 20px;
         /*grid-template-areas: 
         "digital"
         "marketing"
@@ -367,6 +368,7 @@ table {
         object-fit: cover;
         object-position: center;
         height: 300px;
+        margin-top: 20px;
     }
 
     .imagevision {
@@ -426,7 +428,7 @@ table {
         font-size: 40px;
         padding: 10px;
         font-weight: 700;
-        padding-top: 30px;
+        padding-top: 20px;
     }
 
     .team .john {
@@ -641,7 +643,7 @@ table {
     }
 
     #search {
-        width: 60%;
+        width: 80%;
         padding: 10px;
     }
 
@@ -722,36 +724,32 @@ table {
     /* About Us container */
     .aboutus {
         background-color: #ffe6ac;
-        padding: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-bottom: 20px;
     }
 
     .aboutus h2 {
         font-size: 40px;
-        padding: 10px;
-        padding-top: 20px;
-        padding-bottom: 20px;
         font-weight: 700;
-        display: flex;
+        line-height: 1.5;
+        padding-top: 20px;
     }
 
-    .aboutusimage {
-        width: 500px;
+    /* about us image */
+    #aboutus {
+        width: 600px;
         float: left;
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-around;
+        padding-top: 20px;
+        padding-right: 20px;
+        /*display: flex;
+        align-items: center;
+        justify-content: center;*/
     }
 
     .paragraph3 {
-        padding: 10px;
         line-height: 1.5;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
+        font-size: 16px;
     }
 
     /* Services container */
