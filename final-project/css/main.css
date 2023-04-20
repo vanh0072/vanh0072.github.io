@@ -77,6 +77,10 @@ table {
         text-decoration: none;
     }
 
+    a:hover {
+        color: white;
+    }
+
     nav ul {
         padding: 0;
     }
@@ -642,6 +646,10 @@ table {
         margin: 50px;
     }
 
+    a:hover {
+        color: white;
+    }
+
     #search {
         width: 80%;
         padding: 10px;
@@ -726,7 +734,7 @@ table {
         background-color: #ffe6ac;
         padding-right: 50px;
         padding-left: 50px;
-        padding-bottom: 20px;
+        padding-bottom: 80px;
     }
 
     .aboutus h2 {
@@ -737,7 +745,7 @@ table {
     }
 
     /* about us image */
-    #aboutus {
+    .aboutusimage img {
         width: 600px;
         float: left;
         padding-top: 20px;
@@ -1003,7 +1011,7 @@ table {
         grid-area: bob;
     }
 
-    .team .bob img {
+    .bobimg {
         grid-area: bobimg;
     }
 
