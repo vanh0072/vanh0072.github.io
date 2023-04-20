@@ -589,6 +589,10 @@ table {
         line-height: 2;
         padding-top: 30px;
     }
+
+    .footer a {
+        margin: 0;
+    }
 }
 
 @media screen and (min-width: 760px){
@@ -1160,5 +1164,9 @@ table {
         color: #c78c06;
         padding: 20px;
         line-height: 2;
+    }
+
+    .footer a {
+        margin: 0;
     }
 }
