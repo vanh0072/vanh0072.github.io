@@ -148,7 +148,7 @@ table {
         width: 100%;
         text-align: left;
         color: white;
-        background-image: url("/images/main-banner.jpg");
+        background-image: url("../images/main-banner.jpg");
         height: 600px;
         background-size: cover;
         background-repeat: no-repeat;
@@ -660,7 +660,7 @@ table {
         width: 100%;
         text-align: left;
         color: white;
-        background-image: url("/images/main-banner.jpg");
+        background-image: url("../images/main-banner.jpg");
         height: 850px;
         background-size: cover;
         background-repeat: no-repeat;
