@@ -671,9 +671,8 @@ table {
     .welcome {
         color: white;
         width: 100%;
-        font-size: 70px;
+        font-size: 80px;
         font-weight: bolder;
-        height: 100%;
         line-height: 1.5;
     }
 
@@ -682,15 +681,22 @@ table {
         color: white;
         background: rgba(0, 0, 0, 0.5); /* Black see-through */
         font-size: 12pt;
+        padding: 50px;
         padding-left: 20px;
+        padding-right: 20px;
         line-height: 1.5;
         bottom: 50%;
-        width: 75%;
+        width: 80%;
     }
 
     .overlay_1 {
-        left: 12%;
-        top: 30%;
+        left: 10%;
+        top: 10%;
+        height: 65%;
+    }
+
+    .overlay p {
+        margin-top: 20px;
     }
 
     .button1 {
@@ -699,9 +705,9 @@ table {
         color: black;
         text-align: left;
         text-decoration: none;
-        font-size: 16px;
-        padding: 20px 40px;
-        margin-top: 10px;
+        font-size: 25px;
+        padding: 40px 50px;
+        margin-top: 50px;
         margin-bottom: 10px;
     }
 
